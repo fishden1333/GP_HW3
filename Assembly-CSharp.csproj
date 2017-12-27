@@ -46,6 +46,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\CameraMovement.cs" />
+     <Compile Include="Assets\Script\Character2D.cs" />
+     <Compile Include="Assets\Script\Character2DControl.cs" />
+     <Compile Include="Assets\Script\CharacterHealth.cs" />
+     <Compile Include="Assets\Script\KeepScore.cs" />
+     <Compile Include="Assets\Script\ScoreTimer.cs" />
      <Compile Include="Assets\Script\StartMenu.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
