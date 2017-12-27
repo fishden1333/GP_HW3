@@ -13,6 +13,7 @@ public class KeepScore : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		sc = GetComponent<ScoreTimer>();
+		text = GameObject.Find("Scoretext").GetComponent<Text>();
 		record = 0;
 	}
 
